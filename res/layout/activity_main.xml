@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#fff"
+    android:orientation="vertical" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:background="#ffbb33" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="70dp"
+            android:layout_marginLeft="0dp"
+            android:background="#0099cc"
+            android:gravity="center"
+            android:text="REMOTE  MOBILE"
+            android:textColor="#fff"
+            android:textSize="38dp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="4dp"
+        android:background="#ffbb33"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/img_ph"
+        android:layout_width="225dp"
+        android:layout_height="225dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/white" />
+
+</LinearLayout>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+        
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="5dp"
+              android:textAlignment="center"
+              android:text="Once our appplication is installed please first enter the password for security reason then send sms to your phone with help of any mobile it could be smart phone or any other phone which has the ablity to send sms. In the sms it should first contain your password which you have entered in this application,and then it should contain keyword which tells the action or the thing you want to access. The first parameter should be password and second parameter should be keyword. "
+              android:textSize="15dp"
+             
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="fill_parent"
+              android:layout_height="4dp"
+              android:layout_marginTop="10dp"
+              android:background="#ffbb33"
+              android:text="" />
+
+          <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="20dp"
+              android:text="TO ACCESS CONTACT"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to access contact number of person then the you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,GET_CONTACT,CONTACT_NAME"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+           <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="20dp"
+              android:text="TO ACCESS CALL-LOG"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to access callog of your phone then  you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,GET_CALL_LOG"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+           <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="20dp"
+              android:text="TO ACCESS SMS"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to access  last 3 sms of your phone  present in inbox then you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,GET_SMS"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+         
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+          <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="20dp"
+              android:text="TO DELETE TEXTUAL CONTENTS"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to delete all the contact numbers present in your phone then you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,DEL_CONTACTS"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to delete all the calllogs  present in your phone then you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,DEL_CALL_LOG"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to delete all the sms present in your phone then you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,DEL_SMS"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+          
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to delete all the calender present in your phone then you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,DEL_CALENDER"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+           <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="20dp"
+              android:text="TO DIVERT SMS"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to divert sms to person then you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,SMS_FORWARD,CONTACT_NAME,TEXT"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="200dp"
+              android:layout_height="4dp"
+              android:layout_marginLeft="50dp"
+              android:layout_marginTop="10dp"
+              android:background="#cc0000"
+              android:gravity="center" />
+          
+         <TextView
+              android:id="@+id/textView2"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="5dp"
+              android:layout_marginTop="20dp"
+              android:text="TO ACCESS FILE"
+              android:textColor="#fff"
+              android:textSize="20dp"
+              android:textStyle="bold" />
+
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="0dp"
+              android:text="\n If you want to access contents of file present in your mobile then you should send sms in the format " />
+          
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_marginLeft="10dp"
+              android:layout_marginTop="10dp"
+              android:text="password,READ,filename.txt"
+              android:textColor="#ffbb33"
+              android:textStyle="bold" />
+          
+           <TextView
+              android:id="@+id/textView1"
+              android:layout_width="fill_parent"
+              android:layout_height="4dp"
+              android:layout_marginTop="10dp"
+              android:background="#ffbb33"
+              android:text="" />
+          
+        </LinearLayout>
+        
+        
+    </ScrollView>
+
+</RelativeLayout>
