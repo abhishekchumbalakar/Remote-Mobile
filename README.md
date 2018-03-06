@@ -1,0 +1,1 @@
+Developed an android application which will access remote mobile phones Information, which can be used to find particular contact Information or deleting a particular message just by sending a simple message from any other mobile
